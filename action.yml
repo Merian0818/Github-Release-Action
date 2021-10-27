@@ -1,16 +1,16 @@
-name: 'Github Release'
+name: 'merian0818'
 author: 'Lars Gohr'
 branding:
   icon: 'git-branch'
   color: 'gray-dark'
-description: 'Publish Github releases from an action'
+description: 'Publish GitHub releases from an action'
 env:
   GITHUB_TOKEN: 'The Github Token'
 inputs:
   release:
-    description: 'The name of the release to publish'
+    description: 'Publish GitHub releases from an action'
     required: true
-args: ['The release name']
+args: ['code']
 runs:
   using: 'docker'
   image: 'Dockerfile'
